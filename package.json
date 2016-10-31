@@ -1,0 +1,19 @@
+{
+  "name": "hexo-renderer-orgmode",
+  "version": "1.0.0",
+  "description": "a hexo renderer plugin that support Emacs org file",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "hexo",
+    "emacs",
+    "plugin"
+  ],
+  "author": "guozhen",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "org-mode-parser": "^0.1.1"
+  }
+}
