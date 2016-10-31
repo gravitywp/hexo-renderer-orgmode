@@ -1,8 +1,8 @@
 'use strict';
 var renderer = require('./lib/renderer');
 var assign = require('object-assign');
-var read_info = require('./lib/read-info');
 
+console.log("renderer", renderer);
 // Init option
 hexo.config.org = assign({
   toc: false,
