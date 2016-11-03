@@ -1,6 +1,7 @@
 'use strict';
 var renderer = require('./lib/renderer');
 var assign = require('object-assign');
+var read_info = require("./lib/_read_info");
 
 // Init option
 hexo.config.org = assign({
@@ -8,4 +9,4 @@ hexo.config.org = assign({
 
 hexo.extend.renderer.register('org', 'html', renderer.bind(hexo), false);
 
-// hexo.extend.filter.register('before_post_render', read_info);
+hexo.extend.filter.register('before_post_render', read_info);
