@@ -1,5 +1,15 @@
-#+TITLE: Test Org File
-#+TAGS: emacs, hexo, renderer
-#+DATE: <2016-10-31 Mon>
-** Title
-*** content
+#+TITLE: Hello,orgmode
+#+DATE: <2015-11-15 Sun 17:00>
+#+TAGS: emacs, orgmode, hexo
+#+LAYOUT: post
+#+CATEGORIES: orgmode
+* Orgmode
+** Why org
+#+BEGIN_SRC js
+console.log('hello');
+#+END_SRC
+我编不下去了。。
+[[file:./pic.jpg]]
+*** 继续遍
+* level1
+** level2

@@ -15,6 +15,6 @@
   "license": "GPL-3.0",
   "dependencies": {
     "object-assign": "^4.1.0",
-    "org-mode-parser": "^0.1.1"
+    "org-mode-parser": "git+https://github.com/daitangio/org-mode-parser.git"
   }
 }
