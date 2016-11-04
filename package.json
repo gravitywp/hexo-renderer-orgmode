@@ -14,6 +14,7 @@
   "author": "guozhen",
   "license": "GPL-3.0",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "moment": "^2.15.2",
     "object-assign": "^4.1.0",
     "org-mode-parser": "git+https://github.com/daitangio/org-mode-parser.git"
