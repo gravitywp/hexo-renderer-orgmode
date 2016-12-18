@@ -2,7 +2,7 @@
 ** Useage
 *** Install
    #+BEGIN_SRC shell
-   npm install https://github.com/gravitywp/hexo-renderer-orgmode.git --save
+   npm install hexo-renderer-orgmode --save
    #+END_SRC
 ** TODOLIST
 *** DONE Support org mode table. DONE.
