@@ -16,6 +16,6 @@
   "dependencies": {
     "moment": "^2.15.2",
     "object-assign": "^4.1.0",
-    "org-mode-parser": "git+https://github.com/daitangio/org-mode-parser.git"
+    "org-mode-parser": "^0.1.2"
   }
 }
